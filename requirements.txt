@@ -1,0 +1,29 @@
+# ============================================================
+# Orient BlackSwan History Bot — RAG QA System
+# Python 3.10+  |  LangChain + ChromaDB + HuggingFace / OpenAI
+# ============================================================
+
+# --- Core LangChain ---
+langchain>=0.3.0,<0.4
+langchain-community>=0.3.0,<0.4
+langchain-openai>=0.2.0,<0.3
+langchain-chroma>=0.2.0,<0.3
+langchain-huggingface>=0.1.0,<0.2
+langchain-text-splitters>=0.3.0,<0.4
+
+# --- Vector Store ---
+chromadb>=0.5.0,<0.6
+
+# --- PDF Parsing ---
+pypdf>=4.0,<5
+
+# --- Embeddings (local, free) ---
+sentence-transformers>=3.0,<4
+
+# --- OpenAI / Anthropic LLMs (choose one or both) ---
+openai>=1.30,<2
+# anthropic>=0.30,<1          # uncomment if you use Claude
+
+# --- Utilities ---
+python-dotenv>=1.0,<2
+rich>=13.0,<14                 # pretty terminal output
